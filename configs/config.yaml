@@ -1,0 +1,21 @@
+server:
+  port: 8080
+  mode: debug
+
+database:
+  host: localhost
+  port: 5432
+  user: credit
+  password: credit123
+  dbname: credit_db
+  sslmode: disable
+
+redis:
+  host: localhost
+  port: 6379
+  password: ""
+  db: 0
+
+jwt:
+  secret: credit-risk-control-secret-key
+  expire_hours: 24
